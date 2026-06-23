@@ -5,7 +5,7 @@ def browser_type_launch_args(browser_type_launch_args):
     return {
         **browser_type_launch_args,
         "executable_path": "C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe",
-        "headless": False,
+        "headless": True,
         # 1. Add the Chromium argument to maximize the window
         "args": ["--start-maximized"]
     }
